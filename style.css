@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'IDroid';
+    src: url('IDroid.otf') format('OpenType');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #88EBE7;
+    background-image: url('imagens/android002.png');
+}
+
+header{
+ background-image: linear-gradient(to top, #02401a, #23DB2A );
+ text-align:center;
+ color: white;
+}
+nav{
+text-align: left;
+color: white;
+}
+
+.ola > a{
+color: white;
+text-align:left;
+padding: 5px;
+text-decoration: none;
+display: flex;
+}
+.aqui > p{
+    display: none;
+    color: white;
+}
+.aqui:hover > p{
+    display: block;
+}
+
+.home:hover{
+    background-color: #02401a84;    
+}
+.noticias:hover{
+    background-color:  #02401a84;
+}
+.curiosidade:hover{
+    background-color:  #02401a84;
+}
+.conosco:hover{
+    background-color: #02401a84
+}
+p{
+    text-indent: 10px;
+}
+
+
+main{
+    background-color: white;
+   min-width: 320px;
+   max-width: 950px;
+   margin: auto;
+   padding: 10px;
+
+}
+
+article > p{
+    text-indent: 10px;
+}
+.video{
+    margin:0px;
+}
+section > h1{
+    font-family:'IDroid';
+    color: #158519;
+}
+article > h2{
+    font-family:'IDroid';
+    background-image: linear-gradient(to right,#23db29b7 , #23db2922  );
+    color: #158519;
+}
+h2 > p{
+    text-indent: 10px;
+}
+.video{
+    background-color: #158519;
+    text-align: center;
+    min-width: 320px;
+    max-width: 950px;
+    border: 0px;
+}
+.listas{
+    display: flex;
+}
+
+    
+  
+  aside{
+     background-color: #88ebe867;
+     min-width: 320px;
+     max-width: 950px;
+     margin: auto;
+     border-radius: 10px;
+ }
+
+  aside > h3{
+    background-color: #158519;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+  
+
+    
+  }
+  aside > p {
+    text-indent: 10px;
+    padding: 10px;
+  }
+
+  footer{
+    text-indent: 10px;
+    background-color:#02401a ;
+    color: white;
+    text-align: center;
+  }
+  
+

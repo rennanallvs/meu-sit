@@ -33,7 +33,10 @@ header > h1{
 nav{
 text-align: left;
 color: white;
+height: 5px;
+width: 5px;
 }
+
 
 .ola > a{
 color: white;

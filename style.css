@@ -30,27 +30,32 @@ header > h1{
 .paragrafo{
     text-align: center;
 }
-nav{
-text-align: left;
-color: white;
-height: 5px;
-width: 5px;
+
+.navegação{
+    height: 20px;
+    width: 10px;  
+    font-size: 1.5;
 }
-
-
 .ola > a{
 color: white;
 text-align:left;
 padding: 5px;
 text-decoration: none;
 display: flex;
+
 }
-.aqui > p{
+.navegação> p{
     display: none;
     color: white;
+    height:100px;
+    width: 200px;
 }
-.aqui:hover > p{
+.navegação:hover > p{
+    background-color: #093b0a59;
     display: block;
+    height:120px;
+    width: 130px;
+    margin: auto;
 }
 
 .home:hover{

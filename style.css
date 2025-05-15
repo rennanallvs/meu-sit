@@ -17,9 +17,9 @@ body{
 }
 
 header{
- background-image: linear-gradient(to top, #02401a, #23DB2A );
- text-align:center;
- color: white;
+    background-image: linear-gradient(to top, #02401a, #23DB2A );
+    text-align:center;
+    color: white;
 }
 header > h1{
     font-family:"Bebas Neue", sans-serif ;
@@ -32,30 +32,30 @@ header > h1{
 }
 
 .navegação{
-    height: 20px;
-    width: 10px;  
-    font-size: 1.5;
+    max-height: 50px;
+    max-width: 30px;
 }
 .ola > a{
-color: white;
-text-align:left;
-padding: 5px;
-text-decoration: none;
-display: flex;
-
+    color: white;
+    text-align:left;
+    padding: 5px;
+    text-decoration: none;
+    float: left;
+    background-color: #1b8e1d98;
 }
 .navegação> p{
     display: none;
     color: white;
-    height:100px;
-    width: 200px;
+    height:50px;
+    min-width: 500px;  
+    max-width: 950;
 }
 .navegação:hover > p{
-    background-color: #093b0a59;
     display: block;
-    height:120px;
-    width: 130px;
+    height:50px;
     margin: auto;
+    min-width: 500px;
+    max-width: 950px;
 }
 
 .home:hover{
@@ -78,10 +78,10 @@ p{
 
 main{
     background-color: white;
-   min-width: 320px;
-   max-width: 950px;
-   margin: auto;
-   padding: 10px;
+    min-width: 320px;
+    max-width: 950px;
+    margin: auto;
+    padding: 10px;
 }
 
 .link{
